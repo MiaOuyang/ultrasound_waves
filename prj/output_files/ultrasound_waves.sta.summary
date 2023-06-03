@@ -1,0 +1,113 @@
+------------------------------------------------------------
+Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'seg_driver:u_seg_driver|sel_r[0]'
+Slack : -63.640
+TNS   : -3530.859
+
+Type  : Slow 1200mV 85C Model Setup 'Clk'
+Slack : -27.863
+TNS   : -340.359
+
+Type  : Slow 1200mV 85C Model Setup 'hc_sr_driver:u_hc_sr_driver|clk_div:u_clk_div|cnt[0]'
+Slack : -3.746
+TNS   : -101.020
+
+Type  : Slow 1200mV 85C Model Hold 'Clk'
+Slack : 0.384
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'hc_sr_driver:u_hc_sr_driver|clk_div:u_clk_div|cnt[0]'
+Slack : 0.546
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'seg_driver:u_seg_driver|sel_r[0]'
+Slack : 0.756
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'Clk'
+Slack : -3.000
+TNS   : -96.805
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'hc_sr_driver:u_hc_sr_driver|clk_div:u_clk_div|cnt[0]'
+Slack : -1.285
+TNS   : -44.975
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'seg_driver:u_seg_driver|sel_r[0]'
+Slack : 0.333
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'seg_driver:u_seg_driver|sel_r[0]'
+Slack : -57.714
+TNS   : -3201.142
+
+Type  : Slow 1200mV 0C Model Setup 'Clk'
+Slack : -25.041
+TNS   : -302.483
+
+Type  : Slow 1200mV 0C Model Setup 'hc_sr_driver:u_hc_sr_driver|clk_div:u_clk_div|cnt[0]'
+Slack : -3.337
+TNS   : -89.160
+
+Type  : Slow 1200mV 0C Model Hold 'Clk'
+Slack : 0.337
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'hc_sr_driver:u_hc_sr_driver|clk_div:u_clk_div|cnt[0]'
+Slack : 0.495
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'seg_driver:u_seg_driver|sel_r[0]'
+Slack : 0.681
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'Clk'
+Slack : -3.000
+TNS   : -96.805
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'hc_sr_driver:u_hc_sr_driver|clk_div:u_clk_div|cnt[0]'
+Slack : -1.285
+TNS   : -44.975
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'seg_driver:u_seg_driver|sel_r[0]'
+Slack : 0.264
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'seg_driver:u_seg_driver|sel_r[0]'
+Slack : -31.028
+TNS   : -1719.305
+
+Type  : Fast 1200mV 0C Model Setup 'Clk'
+Slack : -13.153
+TNS   : -134.095
+
+Type  : Fast 1200mV 0C Model Setup 'hc_sr_driver:u_hc_sr_driver|clk_div:u_clk_div|cnt[0]'
+Slack : -1.268
+TNS   : -29.930
+
+Type  : Fast 1200mV 0C Model Hold 'Clk'
+Slack : 0.104
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'seg_driver:u_seg_driver|sel_r[0]'
+Slack : 0.197
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'hc_sr_driver:u_hc_sr_driver|clk_div:u_clk_div|cnt[0]'
+Slack : 0.245
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'Clk'
+Slack : -3.000
+TNS   : -79.980
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'hc_sr_driver:u_hc_sr_driver|clk_div:u_clk_div|cnt[0]'
+Slack : -1.000
+TNS   : -35.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'seg_driver:u_seg_driver|sel_r[0]'
+Slack : 0.232
+TNS   : 0.000
+
+------------------------------------------------------------
