@@ -31,7 +31,7 @@ HC-SR04超声波测距模块需要5V供电，其余trigger和echo自由接线，
 ## 2.1 时钟分频
 定义时钟分频模块，产生周期为`1us`的时钟信号
 
-```c
+```verilog
 module 	clk_div(
 	input  wire			Clk		, //system clock 50MHz
 	input  wire 		Rst_n	, //reset ，low valid
@@ -76,7 +76,7 @@ endmodule
 ## 2.2 超声波测距
 实现`HC-SR04`超声波传感器的触发模块，用于生成触发测距信号（trig）
 
-```c
+```verilog
 module 	hc_sr_trig(
 	input  wire			clk_us	, //system clock 1MHz
 	input  wire 		Rst_n	, //reset ，low valid
@@ -118,7 +118,7 @@ module 	hc_sr_trig(
 endmodule 
 ```
 定义`HC-SR04`超声波传感器的回声模块，用于测量距离并输出检测距离数据（data_o）
-```c
+```verilog
 module 	hc_sr_echo(
 	input  wire 		Clk		, //clock 50MHz
 	input  wire			clk_us	, //system clock 1MHz
@@ -201,7 +201,7 @@ endmodule
 
 数码管驱动器模块代码如下，用于将输入的数据（data_o）转换为对应的数码管显示：
 
-```c
+```verilog
 module seg_driver(
     input   wire        Clk     ,
     input   wire        Rst_n   ,
@@ -333,7 +333,7 @@ endmodule
 ## 3.3 硬件测试
 引脚绑定：
 
-```c
+```verilog
 package require ::quartus::project
 
 set_location_assignment PIN_Y2 -to Clk
